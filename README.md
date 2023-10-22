@@ -58,11 +58,12 @@ Use the application that you created in task #1 or task #2. Create dockerfiles a
   Create mongodb-deployment.yaml, mongodb-services.yaml, mongodb-pvc.yaml and deploy it to configure mongodb
   ![image](https://github.com/pravinkumarmahato/Task-3.--Kubernetes/assets/68019573/400deb11-b9bc-444a-a5e0-d2e8c6274f4f)
 
-  Create deployment.yaml and service.yaml to deploy the springboot application
+  Create springboot-deployment.yaml and springboot-services.yaml to deploy the springboot application
   ![image](https://github.com/pravinkumarmahato/Task-3.--Kubernetes/assets/68019573/f980105e-b583-4799-a5a6-e5c80176f57c)
 
 ### Step-7:
   Now the pods are deployed and up we can make it up and down using commands or by using minikube dashbord
+  And if we delete any pod it will automatically create another pod
   ![image](https://github.com/pravinkumarmahato/Task-3.--Kubernetes/assets/68019573/740f668b-e694-425b-b405-5005ef1f4d89)
 
 
